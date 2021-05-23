@@ -1,0 +1,172 @@
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+.container {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuBar {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 200px;
+    height: 65px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+.menu a {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 6px;
+    padding: 10px 25px;
+}
+
+.menu a:hover {
+    background-color: green;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.middleMenu {
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.promotion {
+    width: 70%;
+    height: 100px;
+    display: flex;
+}
+
+.promotionButton {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    padding-top: 12px;
+}
+
+.promotion p {
+    color: #2E2D2D;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.promotionButton a {
+    color: #2E2D2D;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #20A4B3;
+    border-radius: 6px;
+    padding: 12px 25px;
+}
+
+.promotionButton a:hover {
+    color: #fff;
+    background-color: #20A4B3;
+}
+
+.news {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+}
+
+.news h2 {
+    color: green;
+    text-decoration: underline;
+}
+
+#homeBox {
+    width: 100%;
+    height: 220px;
+    text-align: center;
+}
+
+.box {
+    width: 300px;
+    height: 220px;
+    display: inline-block;
+}
+
+.box p {
+    color: #20A4B3;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.allNews {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.allNews p {
+    color: #4E5050;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
